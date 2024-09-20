@@ -11,7 +11,7 @@ function sendMessage() {
     // Simple responses
     let botResponse = "I'm sorry, I didn't understand that.";
     if (userInput.includes('hello') || userInput.includes('hi')) {
-      botResponse = "Hello! How can I assist you today?";
+      botResponse = "Hello! These are the input available: help; thank you; joke; favorite color; homework; story; sad; bored; language; How can I assist you today?";
     } else if (userInput.includes('help')) {
       botResponse = "Sure! What do you need help with? ";
     } else if (userInput.includes('thank you')) {
